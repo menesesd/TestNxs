@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nexos.Api.Data\Nexos.Api.Data.csproj" />
+    <ProjectReference Include="..\Nexos.Api.Domain\Nexos.Api.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

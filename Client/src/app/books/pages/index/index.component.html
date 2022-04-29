@@ -1,0 +1,15 @@
+<section>
+    <div class="row">
+        <div class="col-12">
+            <app-books-search-book-input (resultSearch)="resultSearch($event)"></app-books-search-book-input>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <app-book-list-books-table [listOfBooks]="booksFound" ></app-book-list-books-table>
+        </div>
+    </div>
+</section>
+
+
+
